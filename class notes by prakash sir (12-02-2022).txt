@@ -1,0 +1,34 @@
+Basic Javascript
+	Introduction to Javascript (Intro ,Comment, Console) 
+Variables(Declaring,Naming, let vs var vs const) 
+
+Data Types(primitive and objects), 
+
+Operators 
+
+Conditional Statements
+Looping
+Function
+String
+Arrays
+DOM basics
+Events(Event bubbling)
+
+
+Advanced  JavaScript
+	
+More about function(Declaration Vs expression, recursion,, first class function,arrow function,IIFE)
+Variables Scopes (Functional programming, Var vs Let)
+Strict mode
+How JS code runs(GEC,with example in the browser, Callstack,Dead temporal zone,hoisting)
+Closure
+	BOM(window object and its methods,local storage)
+		Debouncing and throttling
+		Understanding prototypes.
+		Inheritance and prototype chaining
+Class and object
+This binding
+JSON
+		Asynchronous programming(promise,async,await)
+		Ajax and API Integration
+		Error Handling

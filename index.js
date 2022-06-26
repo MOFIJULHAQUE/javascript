@@ -58,6 +58,7 @@
 
 
 
+
 // fibonacci
 // let ab = parseInt(process.argv[2]);
 // let a = 1;
@@ -68,6 +69,70 @@
 //     b=c;
 //     console.log(a);
 // } 
+
+
+
+
+// prime or not 
+// let a = parseInt(process.argv[2]);
+// let check=true
+// for(let i= 2; i<a; i++){
+//   if(a% i == 0){
+//     check=false
+//   }
+// }
+// if(check==true){
+//   console.log("it's a prime number")
+// } else{
+//   console.log("NO , it's not  a prime number")
+// }
+
+
+
+
+// number is divisible by 3 or 5 or 15
+// let a = parseInt(process.argv[2]);
+// for(let i = 1 ; i<=100 ; i++){
+//     if(i%3 == 0 ){
+//         console.log("Hello");
+//     }else if(i%5 == 0 ){
+//         console.log("World");
+//     }else if(i%15 == 0 ){
+//         console.log("HelloWorld");
+//     }
+//     else{
+//         console.log(a);
+//     }
+// }
+
+
+
+
+
+// palindrom
+// let a = parseInt(process.argv[2]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // using while loop##################################

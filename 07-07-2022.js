@@ -252,4 +252,60 @@
 
 
 
+// sum of all array element
+// let nums = [1,2,3,4,5];
+// let sum = 0;
+// for(let i =0;i<=nums.length;i++){
+//     sum+=i;
+// }
+// console.log(sum);
 
+
+
+
+// or(default value of reduce is 0 and it is a inbuilt function)
+// (reduce is converting a array into singlr digit number)
+
+// let nums = [1,2,3,4,5];
+// let sum = nums.reduce(function(prev,current){
+//     return prev + current
+// })
+// console.log(sum);
+
+
+
+
+
+
+// 'every function' in JS(if any one of the value is false then returns false because every value must be true else is returns false)
+// if all the numbers are greater then n
+// false logic
+// let nums = [1,2,3,4,5,6];
+
+// let initial = true;
+
+// for(let i = 0;i<nums.length;i++){
+//     if(nums[i] > 5) initial = true;
+// }
+// console.log(initial);
+
+
+// correct logic
+// let nums = [1,2,3,4,5,6];
+// console.log(nums.every((num)=>{
+//     return num<=5
+// }));
+
+
+
+
+
+
+
+
+
+// 'some function' in JS(if any one of the value is true then it rerturn true)
+// let nums = [1,2,3,4,5,6];
+// console.log(nums.some((num)=>{
+//     return num<=5
+// }));

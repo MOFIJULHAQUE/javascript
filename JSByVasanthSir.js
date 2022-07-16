@@ -245,7 +245,7 @@
 // let newArr = nums.map(function(num){
 //     console.log(num**2);
 //     return num;
-})
+// })
 // console.log(nums);
 
 
@@ -1036,6 +1036,9 @@
 
 
 
+
+
+
 // 
 // console.log('Mofijul');
 // setTimeout(() => {
@@ -1127,3 +1130,201 @@
 
 
 
+
+
+
+
+
+
+
+// ************************(*******    16-07-2022(Vasanth Sir)    *******************************
+
+
+
+
+// unique characters
+// let chars = ["a","b","c","d","b"];
+// let unique =[];
+// for (let i = 0;i<chars.length;i++){
+//     if(!unique.includes(chars[i])){
+//         unique.push(chars[i]);
+//     }
+// }
+// console.log(unique);
+
+
+//output
+// [ 'a', 'b', 'c', 'd' ]
+
+
+//        or
+
+
+//using callback methodes by unique chars 
+// let chars = ["a","b","c","d","b"];
+// let unique = chars.filter((char,index)=>{
+//     return chars.indexOf(char) === index;
+// });
+
+// console.log(unique);//output
+// [ 'a', 'b', 'c', 'd' ]
+
+
+
+
+
+//using callback methodes by duplicate chars 
+// let chars = ["a","b","c","d","b"];
+// let unique = chars.filter((char,index)=>{
+//     return chars.indexOf(char) !== index;
+// });
+
+// console.log(unique);
+//output
+// [ 'b' ]
+
+
+
+
+
+
+//print largest number if the array has non repeting no
+// let nums = [5,54,21,8,54,77,47];
+
+// nums.sort((a,b) => a - b);    //this one print in ascending order but if b - a then it will print descending order
+// console.log(nums[nums.length - 2]);
+
+
+
+
+
+//print largest number if the array has repeting no
+// let nums = [5,54,21,8,54,77,47];
+// let unique = nums.filter((char,index)=>{
+//         return nums.indexOf(char) !== index;
+//     });
+//     unique.sort((a,b) => a - b); 
+// console.log(nums[nums.length - 2]);
+
+
+
+
+
+
+
+
+//valid paranthesis or not 
+// function isValidParanthesis(string) {
+//     let map = {
+//         "{": "}",
+//         "[": "]",
+//         "(": ")",
+
+//     };
+
+//     console.log(map["["]);
+
+// }
+// console.log(isValidParanthesis("{([])}"));
+
+
+
+
+
+
+
+
+
+// reverse the sentence each word in the same order
+// let news = "Mofijul is a web developer";
+
+// let newArr = news.split(" ");
+// console.log(newArr);
+
+// for(let i=0; i< newArr.length; i++){
+//     newArr[i] = newArr[i].split("").reverse().join("");
+// }
+// console.log(newArr.join(" "));
+// output
+// lujifoM si a bew repoleved
+
+
+
+
+
+// rotate the string by one character
+// let string = "Mofijul";
+
+// let rotatingString = string.slice(0,4);
+// let slicedString = string.slice(1);
+// console.log(`${slicedString}${rotatingString}`);
+
+// output
+// ofijulMofi
+
+
+
+
+
+
+// Rest Snake direction 
+// let matrix = [
+//     [1, 2, 3, 4],
+//     [5, 6, 7, 8],
+//     [9, 10, 11, 12],
+//     [13, 14, 15, 16],
+// ];
+
+// 1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10
+// let top = 0, bottom = 3, left = 0, right = 3, direction = 0;
+
+// while (left <= right && top <= bottom) {
+//     if (direction == 0) {
+//         for (let i = left; i <= right; i++) {
+//             console.log(matrix[top][i]);
+//         }
+//         top += 1;
+//         direction = 1;
+//     }
+
+//     if (direction == 1) {
+//         for (let i = top; i <= bottom; i++) {
+//             console.log(matrix[i][right]);
+//         }
+//         right -= 1;
+//         direction = 2;
+//     }
+
+//     if (direction == 2) {
+//         for (let i = right; i >= left; i--) {
+//             console.log(matrix[bottom][i]);
+//         }
+//         bottom -= 1;
+//         direction = 3;
+//     }
+
+//     if (direction == 3) {
+//         for (let i = bottom; i >= top; i--) {
+//             console.log(matrix[i][left]);
+//         }
+//         left += 1;
+//         direction = 0
+//     }
+// }
+// output
+// 1
+// 2 
+// 3 
+// 4 
+// 8 
+// 12
+// 16
+// 15
+// 14
+// 13
+// 9
+// 5
+// 6
+// 7
+// 11
+// 10

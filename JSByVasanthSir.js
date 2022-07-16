@@ -120,7 +120,7 @@
 // let nums = [1,2,1,2,1,3,4,5,5];
 
 // for(let i=0; i<nums.length;i++){
-//     if(nums.indexOf(nums[i]) !== nums.lastIndexOf(nums[i])){
+//     if(nums.indexOf(nums[i]) != nums.lastIndexOf(nums[i])){
 //         console.log(nums[i]);
 //         break;
 //     }
@@ -242,10 +242,10 @@
 
 // square of element using map(doubt)
 // let nums = [1,2,3,4,5];
-// let newArr = nums.map(functopn(num){
-//     console.log(num);
+// let newArr = nums.map(function(num){
+//     console.log(num**2);
 //     return num;
-// })
+})
 // console.log(nums);
 
 
@@ -703,15 +703,20 @@
 
 // console.log(nums1.concat('mofijul',nums2,nums3));
 
-// console.log([...])(doubt)
+
+//if we want ro put a array inside an array then....
+// let array = [1,2,3,4,5,6];
+// let newArr = [array];
+// console.log(newArr);
+//then the output like that [ [ 1, 2, 3, 4, 5, 6 ] ] but this is not the correct outout if we want correct output then we must have to use spread operator (...)
+// console.log(...newArr);
+//output is : - [ 1, 2, 3, 4, 5, 6 ]
 
 
 
 
 
-
-
-// ================   TOPIC - STRINGS ======================
+// ===================   TOPIC - STRINGS   ======================
 //strings are mutable
 
 // let fname = 'Mofijul';
@@ -735,11 +740,18 @@
 
 
 
-
-// for(let i=fname.length;      (see screenshoot)
-
-
-
+// let fname = 'mofijul';
+// for(let i=0;i<fname.length;i++){
+//     console.log(fname[i]);
+// }  
+// output
+// m
+// o
+// f
+// i
+// j
+// u
+// l
 
 
 

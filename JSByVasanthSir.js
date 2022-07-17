@@ -1198,6 +1198,7 @@
 
 
 
+
 //print largest number if the array has repeting no
 // let nums = [5,54,21,8,54,77,47];
 // let unique = nums.filter((char,index)=>{
@@ -1213,7 +1214,7 @@
 
 
 
-//valid paranthesis or not 
+//valid paranthesis or not (doubt)
 // function isValidParanthesis(string) {
 //     let map = {
 //         "{": "}",
@@ -1275,7 +1276,7 @@
 //     [13, 14, 15, 16],
 // ];
 
-// 1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10
+//
 // let top = 0, bottom = 3, left = 0, right = 3, direction = 0;
 
 // while (left <= right && top <= bottom) {

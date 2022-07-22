@@ -5,7 +5,7 @@
 
 // nums.sort((a,b) => a-b);
 
-// console.log(nums.length-1)
+// console.log(nums);
 
 // let max = 0;
 // for(let i=0;i<nums.length;i++){
@@ -244,7 +244,7 @@
 // let nums = [1,2,3,4,5];
 // let newArr = nums.map(function(num){
 //     console.log(num**2);
-//     return num;
+    // return num**2;
 // })
 // console.log(nums);
 
@@ -276,7 +276,7 @@
 
 
 
-// ##############upperpart is pushed in github on 8th july####################
+// ####################           upperpart is pushed in github on 8th july              ####################
 
 
 
@@ -290,6 +290,8 @@
 //     sum+=i;
 // }
 // console.log(sum);
+
+
 
 
 
@@ -308,7 +310,10 @@
 
 
 
-// 'every function' in JS(if any one of the value is false then returns false because every value must be true else is returns false)(learn it again)
+
+
+
+// 'every function' in JS(if any one of the value is false then returns false because every value must be true else is returns false)(learn  it again)
 // if all the numbers are greater then n
 // false logic
 // let nums = [1,2,3,4,5,6];
@@ -351,7 +356,6 @@
 
 // ****************************  (11-07-2022) (Vasanth Sir)  ***************************
 
-// 
 // let nums = [2,3,5,6,8];
 // let target = 9;
 
@@ -541,6 +545,8 @@
 
 
 
+
+
 // sum of digonal  elements
 // let matrix = [
 //     [1,2,3,4],
@@ -582,7 +588,6 @@
 //     [11,21,31,41],
 // ]
 
-// 
 
 // let rows = matrix.length;
 // let columns = matrix[0].length;
@@ -636,7 +641,6 @@
 // ]
 
 
-
 // let rows = matrix.length;
 // let columns = matrix[0].length;
 
@@ -651,6 +655,8 @@
 //         }
 //     }
 // }
+
+
 
 
 

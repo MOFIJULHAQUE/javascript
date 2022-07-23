@@ -57,6 +57,35 @@
 
 
 
+//factory finction on Object
+// function create(title){
+//     return {
+//         title : title
+//         enroll () {
+//             console.log('you are enrolled');
+//         }
+//     }
+// }
+// const course = create ('javascript');
+// course.enroll();
+// console.log(course);
+
+
+
+
+
+
+//constructor function 
+// function  Course(title){
+//     this.title = title,
+//     this.enroll = function(){
+//         console.log('you are enrolled');
+//     }
+// }
+// const course = new Course('javascript');
+// course.enroll();
+// console.log(course);
+
 
 
 

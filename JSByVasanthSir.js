@@ -33,7 +33,7 @@
 //     }
 // }
 // console.log(max);
-// here 0 is graeter than all the -ve numbers 
+// here 0 is graeter than all the -ve numbers that's why 0 is the output
 
 
 
@@ -99,7 +99,7 @@
 
 
 // first non repeting number
-// let nums = [1,2,1,2,1,3,4,5,5];
+// let nums = [1,2,1,2,1,3,4,5,4,3,7,5];
 
 // for(let i=0; i<nums.length;i++){
 //     if(nums.indexOf(nums[i]) === nums.lastIndexOf(nums[i])){
@@ -207,9 +207,9 @@
 
 // let nums = [4,7,4,5,8,6,9,1];
 
-// let newArr = nums.filter((num) =>{
-//     console.log(num);
-//     return num < 6;
+// let newArr = nums.filter((nummm) =>{
+    
+//     return nummm < 6;
 // });
 // console.log(newArr);
 
@@ -218,11 +218,15 @@
 
 // let names = ['mofijul', 'sabsd','gdssgvdgv','djgd'];
 // let newArr = names.filter(function(num){
-//     console.log(num);
-//     return num.length < 5;
+//     return num.length < 8;
 // })
 // console.log(newArr);
-
+//or
+// let names1 = ['mofijul', 'sabsd','gdssgvdgv','djgd'];
+// let newArr1 = names.filter((num)=>{
+//     return num.length < 8;
+// })
+// console.log(newArr1);
 
 
 
@@ -243,10 +247,9 @@
 // square of element using map(doubt)
 // let nums = [1,2,3,4,5];
 // let newArr = nums.map(function(num){
-//     console.log(num**2);
-    // return num**2;
+//     return num**2;
 // })
-// console.log(nums);
+// console.log(newArr);
 
 
 
@@ -261,7 +264,7 @@
 //     }
 //     return fact;
 // })
-// console.log(factorial,nums);
+// console.log(factorial);
 
 
 
@@ -296,8 +299,8 @@
 
 
 
-// or(default value of reduce is 0 and it is a inbuilt function)
-// (reduce is converting a array into singlr digit number)
+// or(default value of reduce is 0 and it is a inbuilt function)    (doubt)
+// (reduce is converting a array into single digit number)
 
 // let nums = [1,2,3,4,5];
 // let sum = nums.reduce(function(prev,current){
@@ -357,7 +360,7 @@
 // ****************************  (11-07-2022) (Vasanth Sir)  ***************************
 
 // let nums = [2,3,5,6,8];
-// let target = 9;
+// let target = 10;
 
 // for(let i=0;i<nums.length;i++){
 
@@ -404,7 +407,6 @@
 
 // sum of all element
 
-
 // let matrix = [
 //     [1,2,3,4],
 //     [11,24,34,44],
@@ -446,6 +448,9 @@
 // for(let i=0;i<rows;i++){
 //     sum+=matrix[i][i];
 // }console.log(sum);
+
+
+
 
 // *********   or
 
@@ -668,7 +673,7 @@
 
 // linear search
 
-// let nums = [1,2,3,4,5,6,7,8];
+// let nums = [1,2,3,4,5,6,56,7,8];
 // let target  = 56;
 
 // function is(nums,target){
@@ -732,7 +737,7 @@
 // fname[0]='H';(impossible)
 // console.log(fname+ ' '+lname);
 //or
-// console.log(`"${fname}" '${lname}'`);(doubt)
+// console.log(`"${fname}" '${lname}'`);          (doubt)
 
 // length
 // console.log(fname.length);
@@ -838,7 +843,7 @@
 
 
 
-// if our desired chanable item (i stands for insensetive) is differ in cse like upper-lower then we use this method
+// if our desired changable item (i stands for insensetive) is differ in cse like upper-lower then we use this method
 // let fname = 'Moffffffffiooojuoooool';
 
 // console.log(fname.replace(/F/i,'t'));

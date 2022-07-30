@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>heading</h1>
+    <h1 class="heading2">heading</h1>
+    <h1 id="heading3">heading</h1>
+    <button class="btn"> click here </button>
+    <button class="btn2"> button dabao </button>
+    <div style="background-color:#545">
+      <ul>
+        <li>line 1</li>
+        <li>line 2</li>
+        <li>line 3</li>
+        <li>line 4</li>
+        <li>line 5</li>
+      </ul>
+    </div>
+
+
+
+
+
+    <script>
+
+
+
+let a = document.querySelector(".btn");
+a.addEventListener("click",fn);
+let div = document.querySelector("div");
+function fn(){
+    if(div.style.display == "none"){
+        div.style.display = "Block";
+    }else{
+        div.style.display = "none";
+    }
+}
+
+
+
+
+
+
+let heading = document.querySelector("h1");
+let b = document.querySelector(".btn2");
+b.addEventListener("mouseover",()=>heading.innerHTML="apne button2 dabaya hai");
+
+
+
+    </script>
+</body>
+</html>

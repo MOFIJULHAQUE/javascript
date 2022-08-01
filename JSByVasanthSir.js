@@ -22,6 +22,7 @@
 
 
 
+
 // find maximum number from array for negative number
 
 // let nums = [-1,-20,-30,-17,-89,-90,-10,-27,-33,-8];
@@ -1129,7 +1130,8 @@
 // for(let name of nums){
 //     console.log(name);
 // }
-// outputsm
+// outputs
+// m
 // o
 // f
 // i
@@ -1171,7 +1173,7 @@
 //        or
 
 
-//using callback methodes by unique chars 
+// using callback methodes by unique chars 
 // let chars = ["a","b","c","d","b"];
 // let unique = chars.filter((char,index)=>{
 //     return chars.indexOf(char) === index;
@@ -1184,7 +1186,7 @@
 
 
 
-//using callback methodes by duplicate chars 
+// using callback methodes by duplicate chars 
 // let chars = ["a","b","c","d","b"];
 // let unique = chars.filter((char,index)=>{
 //     return chars.indexOf(char) !== index;

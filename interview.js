@@ -96,7 +96,7 @@
 
 
 
-//31-07-2022
+// *********************************  31-07-2022  *********************************
 
 
 
@@ -187,7 +187,7 @@
 
 //wrong anser was given by me correct output is Invalid or unexpected token
 // console.log([...”AirCampus”])
-
+//output :- Invalid or unexpected token
 
 
 
@@ -197,7 +197,7 @@
 
 //correct output
 // console.log("10"+20+30);
-
+// output :- 102030
 
 
 
@@ -211,6 +211,7 @@
 // delete a;
 // return a;
 // })(5);
+// anser is :- no output
 
 
 
@@ -226,8 +227,7 @@
 // delete abc.x;
 // return abc.x;
 // })();
-
-
+// anser is :- no output
 
 
 

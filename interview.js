@@ -113,9 +113,6 @@
 
 
 
-// let x = function(){
-
-// }
 
 
 
@@ -236,3 +233,9 @@
 
 // let str = "airCampus";
 // let str2 = "air";
+
+
+
+
+// console.log("Bat" > "ball");
+// true 
